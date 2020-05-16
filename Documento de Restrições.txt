@@ -1,0 +1,23 @@
+Documento de Restrições:
+	
+	Quantidade de Argumentos (QA):
+		- Válidos: QA = {0, 1, 2}
+		- Inválidos: QA > 2
+
+	(Caso para 1 argumento)
+	Valores para Argumento ano (a):
+		- Válidos: 1 <= a <= 9999
+		- Inválidos: a < 1 e a > 9999
+
+	(Caso para 2 argumentos)
+	Valores para Argumentos mês e ano (m e a):
+		- Válidos: 1 <= m <= 12 e 1 <= a <= 9999 
+		- Inválidos: m < 1 e m > 12 ou a < 1 e a > 9999
+
+	Tipo de Variável:
+		(Para 1 argumento):
+			- Válido: a = int
+			- Inválido: a != int
+		(Para 2 argumentos):
+			- Válido: a = int e m = int
+			- Invélido: a !=int ou m != int
